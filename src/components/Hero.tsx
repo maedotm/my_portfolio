@@ -15,7 +15,10 @@ export default function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-slide-up">
-          Business Portfolio  <br />Maedot Metsihet
+          Business Portfolio  <br />
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-blue-400 to-white-400">
+            Maedot Metsihet
+          </span>
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">
             & Services
           </span>

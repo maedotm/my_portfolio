@@ -35,11 +35,10 @@ export default function About() {
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-500/10 to-emerald-500/10 backdrop-blur-sm border border-white/10 rounded-2xl p-8 space-y-6">
-            {/* IMAGE SECTION */}
+          <div className="text-center bg-gradient-to-br from-blue-500/10 to-emerald-500/10 backdrop-blur-sm border border-white/10 rounded-2xl p-8 space-y-6">
             <div className="flex justify-center mb-6">
               <img
-                src="/dist/img/maedot.jpg"
+                src="/public/img/maedot.jpg"
                 alt="Maedot Metsihet"
                 className="w-40 h-40 rounded-2xl object-cover shadow-xl ring-2 ring-white/20"
               />
